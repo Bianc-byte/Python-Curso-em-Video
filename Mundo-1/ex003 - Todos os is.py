@@ -1,0 +1,16 @@
+thing = input('Digite algo: ')
+print('O tipo primitivo é: ', type(thing))
+print('É alfanúmerico(alnum): ', thing.isalnum())
+print('É alfabético(alpha): ', thing.isalpha())
+print('Só tem caracteres ASCII(ascii): ', thing.isascii())
+print('É um digito(digit): ', thing.isdigit())
+print('É um número decimal(decimal): ', thing.isdecimal())
+print('Pode ser nome de variável(identifier): ', thing.isidentifier())
+print('É um número(numeric): ', thing.isnumeric())
+print('Só tem espaços(space): ', thing.isspace())
+print('Está capitalizada(title): ', thing.istitle())
+print('É imprimíveis(printable): ', thing.isprintable())
+print('Está em minúsculo(lower): ', thing.islower())
+print('Está em maiúsculo(upper) :', thing.isupper())
+
+      #todos os is possible
